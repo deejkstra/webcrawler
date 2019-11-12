@@ -1,0 +1,15 @@
+README
+-----------------------------------------------------------------------------------------------------
+Setup:
+
+1. confirm webcrawler.tar.gz has the following files
+	1a. webcrawler.py
+	1b. requirements.txt
+	1c. README
+2. create directory `~/webcrawler` and unpack tar into directory
+3. turn `~/webcrawler` into a python3 virtualenv
+4. change into webcrawler directory i.e `cd ~/webcrawler`
+5. `source bin/activate`
+6. `pip install -r requirements.txt`
+7. you're ready to go, run the program i.e `./webcrawler.py`
+extra: running `webcrawler_sample.py` creates a sqlite database `prices.db` and a log file `webcrawler.log`
